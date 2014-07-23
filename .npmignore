@@ -1,0 +1,7 @@
+.git
+test
+.npmignore
+.editorconfig
+.travis.yml
+*.sublime-*
+CONTRIBUTING.md

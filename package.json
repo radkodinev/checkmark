@@ -1,0 +1,38 @@
+{
+  "name": "checkmark",
+  "version": "0.1.1",
+  "description": "A tiny library that may ease writing tests and debugging code a bit",
+  "keywords": [
+    "testing",
+    "assertion",
+    "debugging",
+    "library",
+    "helper"
+  ],
+  "homepage": "https://github.com/radkodinev/checkmark",
+  "bugs": "https://github.com/radkodinev/checkmark/issues",
+  "author": {
+    "name": "Radko Dinev",
+    "email": "radko.dinev@gmail.com",
+    "url": "https://github.com/radkodinev"
+  },
+  "scripts": {
+    "test": "mocha --reporter=spec"
+  },
+  "main": "./checkmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radkodinev/checkmark.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}

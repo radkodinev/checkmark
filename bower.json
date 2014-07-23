@@ -1,0 +1,26 @@
+{
+  "name": "checkmark",
+  "version": "0.1.1",
+  "description": "A tiny library that may ease writing tests and debugging code a bit",
+  "keywords": [
+    "testing",
+    "assertion",
+    "debugging",
+    "library",
+    "helper"
+  ],
+  "authors": [
+    "Radko Dinev <radko.dinev@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radkodinev/checkmark.git"
+  },
+  "ignore": [
+    "*",
+    "!checkmark.js",
+    "!LICENSE",
+    "!README.md"
+  ],
+  "main": "checkmark.js"
+}
