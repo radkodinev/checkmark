@@ -1,6 +1,6 @@
 {
   "name": "checkmark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tiny library that may ease writing tests and debugging code a bit",
   "keywords": [
     "testing",
