@@ -19,14 +19,15 @@
   "scripts": {
     "test": "mocha --reporter=spec"
   },
-  "main": "./checkmark",
+  "main": "checkmark.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/radkodinev/checkmark.git"
   },
   "licenses": [
     {
-      "type": "MIT"
+      "type": "MIT",
+      "url": "https://github.com/radkodinev/checkmark/blob/master/LICENSE"
     }
   ],
   "devDependencies": {
