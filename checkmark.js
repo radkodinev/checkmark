@@ -7,13 +7,13 @@
 
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
+    // AMD: register as an anonymous module
     define([], factory);
   } else if (typeof exports === 'object') {
-    // For CommonJS-like environments that support module.exports, e.g. Node.
+    // CommonJS-like environments (that support module.exports, e.g. Node.js)
     module.exports = factory();
   } else {
-    // Browser globals (root is window)
+    // Global/browser: export as a global, e.g. in browsers root is window
     root.Checkmark = factory();
   }
 }(this, function() {
